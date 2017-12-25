@@ -24,7 +24,7 @@ exports.genre_delete_post = function(req, res){
     res.send('NOT IMPLEMENTED: Genre delete POST');
 };
 
-exports.genere_update_get = function(req, res){
+exports.genre_update_get = function(req, res){
     res.send('NOT IMPLEMENTED: Genre update GET');
 };
 
