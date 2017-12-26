@@ -1,7 +1,9 @@
 var Book = require('../models/book');
 
 exports.index = function(req, res){
-    res.send('NOT IMPLEMENTED: Site Home Page');
+    // res.send('NOT IMPLEMENTED: Site Home Page');
+    res.render('layout.ejs', {title: 'Hello'});
+
 };
 
 exports.book_list = function(req, res){
